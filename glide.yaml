@@ -1,0 +1,11 @@
+package: github.com/arkavo-com/cv-gui-automation
+import:
+- package: gocv.io/x/gocv
+  version: ^0.15.0
+- package: github.com/go-vgo/robotgo
+  version: ^0.50.0
+- package: github.com/kbinani/screenshot
+- package: github.com/tensorflow/tensorflow
+  version: ^1.10.0
+  subpackages:
+  - tensorflow/go
